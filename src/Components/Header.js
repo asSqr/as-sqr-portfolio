@@ -27,7 +27,7 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
               <h1 className="responsive-headline">As_sqr です．</h1>
-              <h3>今は東大の大学院にいます．このページは React の練習として作りました．</h3>
+              <h3>今は東大の大学院にいます．このページは React の練習として https://github.com/CleverProgrammers/react-portfolio を元に作りました．問題があったら教えてください．</h3>
               <hr/>
               <ul className="social">
                 {networks}
