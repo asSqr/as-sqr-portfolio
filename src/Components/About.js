@@ -3,9 +3,8 @@ import React, { Component } from 'react';
 class About extends Component {
   render() {
 
-    if(this.props.data){
-      var profilePic= process.env.PUBLIC_URL+"/images/"+this.props.data.image;
-      var resumeDownload = this.props.data.resumedownload;
+    if( this.props.data ) {
+      var profilePic = process.env.PUBLIC_URL+"/images/"+this.props.data.image;
       var accounts = this.props.data.social
         .filter( (network) => network.account )
         .map( (network) => {
