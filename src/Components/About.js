@@ -23,19 +23,10 @@ class About extends Component {
             <h2>私について</h2>
 
             <p>ゆーたすくんが好きな学生です．数学とか競プロとか開発とか．</p>
-            <div className="row">
-              <div className="columns contact-details">
-                  <h2>アカウント</h2>
-                  <p className="address">
-                    {accounts}
-                  </p>
-              </div>
-              <div className="columns download">
-                <p>
-                  <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
-                </p>
-              </div>
-            </div>
+            <h2>アカウント</h2>
+            <p className="address">
+              {accounts}
+            </p>
           </div>
         </div>
       </section>
