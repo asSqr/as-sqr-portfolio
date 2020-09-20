@@ -37,7 +37,19 @@ class Resume extends Component {
           </div>
 
           <div className="nine columns main-col">
-
+            <div className="row item">
+              <div className="twelve columns">
+                <div key="iSTC"><h3>i Smart Technologies</h3>
+                  <p className="info">バイト / インターン <span>&bull;</span><em className="date">2018/06~</em></p>
+                </div>
+                <div key="KaiY"><h3>KaiY</h3>
+                  <p className="info">インターン <span>&bull;</span><em className="date">2020/08</em></p>
+                </div>
+                <div key="KaiY"><h3>Yahoo! JAPAN</h3>
+                  <p className="info">インターン <span>&bull;</span><em className="date">2020/09</em></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
