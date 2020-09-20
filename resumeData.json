@@ -18,53 +18,38 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
-    "education": [
-      {
-        "school": "University of Kent",
-        "degree": "Masters in Advanced Computer Science",
-        "graduated": "January 2017",
-        "description": "Graduated with Distinction"
-      }
-    ],
-    "work": [
-      {
-        "company": "Clever Programmer",
-        "title": "Team Member && React Specialist",
-        "years": "April 2020 - Present",
-        "description": "Teaching ReactJS to thousands of students."
-      },
-      {
-        "company": "Lindar Media",
-        "title": "Software Engineer",
-        "years": "Nov 2019 - April 2020",
-        "description": "Building MrQ, a gambling website."
-      }
-    ],
     "skills": [
       {
-        "name": "ReactJs",
-        "level": "100%"
+        "name": "C++ (for Competitive Programming)",
+        "level": "70%"
       },
       {
-        "name": "CSS",
-        "level": "95%"
-      },
-      {
-        "name": "Git",
+        "name": "Spring Boot",
         "level": "60%"
       },
       {
-        "name": "Figma && Adobe XD",
-        "level": "55%"
+        "name": "Firebase",
+        "level": "30%"
       },
       {
-        "name": "HTML5",
-        "level": "80%"
+        "name": "WebRTC",
+        "level": "30%"
       },
       {
-        "name": "MongoDB",
-        "level": "80%"
+        "name": "Vue.js",
+        "level": "40%"
+      },
+      {
+        "name": "React",
+        "level": "20%"
+      },
+      {
+        "name": "Apache Solr",
+        "level": "20%"
+      },
+      {
+        "name": "Haskell",
+        "level": "50%"
       }
     ]
   },
