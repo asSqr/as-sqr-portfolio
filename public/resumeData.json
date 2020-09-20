@@ -7,7 +7,8 @@
       {
         "name": "Github",
         "url": "https://github.com/asSqr",
-        "className": "fa fa-github"
+        "className": "fa fa-github",
+        "account": "asSqr"
       },
       {
         "name": "AtCoder",

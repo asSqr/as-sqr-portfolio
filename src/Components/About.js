@@ -8,7 +8,7 @@ class About extends Component {
       var accounts = this.props.data.social
         .filter( (network) => network.account )
         .map( (network) => {
-          return <span>{network.name}: <a href={network.url}>{network.account}</a></span>;
+          return <span dangerouslySetInnerHTML={{__html: network.name+": <a href="+network.url+">"+network.account+"</a><br/>"}}></span>;
         });
     }
 
