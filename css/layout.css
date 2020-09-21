@@ -12,7 +12,7 @@
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Testimonials Section
+   g. Mottos Section
    h. Contact Section
    i. Footer
 
@@ -647,11 +647,11 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------
-/* g. Testimonials
+/* g. Mottos
 /* ------------------------------------------------------------------ */
 
-#testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+#mottos {
+   background: #1F1F1F url(../images/mottos-bg.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -661,19 +661,19 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-#testimonials .text-container {
+#mottos .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
 }
-#testimonials h1 {
+#mottos h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #fff;
 }
-#testimonials h1 span { display: none; }
-#testimonials .header-col { padding-top: 9px; }
-#testimonials .header-col h1:before {
+#mottos h1 span { display: none; }
+#mottos .header-col { padding-top: 9px; }
+#mottos .header-col h1:before {
    font-family: 'FontAwesome';
    content: "\f10d";
 	padding-right: 10px;
@@ -685,30 +685,30 @@ call-to-action .button {
 }
 
 /*	Blockquotes */
-#testimonials blockquote {
+#mottos blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
    position: relative;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
-#testimonials blockquote:before { content: none; }
-#testimonials blockquote p {
+#mottos blockquote:before { content: none; }
+#mottos blockquote p {
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
    line-height: 48px;
    color: #fff
 }
-#testimonials blockquote cite {
+#mottos blockquote cite {
    display: block;
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
    color: #fff;
 }
-#testimonials blockquote cite:before { content: "\2014 \0020"; }
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited { color: #8B9798; border: none }
+#mottos blockquote cite:before { content: "\2014 \0020"; }
+#mottos blockquote cite a,
+#mottos blockquote cite a:visited { color: #8B9798; border: none }
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
