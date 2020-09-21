@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 
-class Testimonials extends Component {
+class Motto extends Component {
   render() {
 
     if(this.props.data){
-      var testimonials = this.props.data.testimonials.map( (testimonials) => {
-        return <li key={testimonials.user}>
+      var mottos = this.props.data.mottos.map( (mottos) => {
+        return <li key={mottos.user}>
             <blockquote>
-               <p>{testimonials.text}</p>
-               <cite>{testimonials.user}</cite>
+               <p>{mottos.text}</p>
+               <cite>{mottos.user}</cite>
             </blockquote>
          </li>
       })
     }
 
     return (
-      <section id="testimonials">
+      <section id="mottos">
         <div className="text-container">
           <div className="row">
             <div className="two columns header-col">
@@ -24,7 +24,7 @@ class Testimonials extends Component {
 
             <div className="ten columns flex-container">
               <ul className="slides">
-                {testimonials}
+                {mottos}
               </ul>
             </div>
           </div>
@@ -34,4 +34,4 @@ class Testimonials extends Component {
   }
 }
 
-export default Testimonials;
+export default Motto;
