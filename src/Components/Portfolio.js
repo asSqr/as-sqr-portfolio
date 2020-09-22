@@ -25,6 +25,18 @@ class Portfolio extends Component {
           </div>
         )
       })
+
+      var blogs = this.props.data.blogs.map( (blogs) => {
+        return (
+          <div className="row item">
+            <div className="twelve columns">
+              <div key={blogs.title}><h3><a href={blogs.url}>{blogs.title}</a></h3>
+                <p className="info">{blogs.description}<span>&bull;</span><em className="date">{blogs.date}</em></p>
+              </div>
+            </div>
+          </div>
+        )
+      })
     }
 
     return (
@@ -36,6 +48,13 @@ class Portfolio extends Component {
             <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">
               {projects}
             </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="twelve columns collapsed">
+            <h1>かいたもの</h1>
+
+            {blogs}
           </div>
         </div>
       </section>

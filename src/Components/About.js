@@ -8,7 +8,7 @@ class About extends Component {
       var accounts = this.props.data.social
         .filter( (network) => network.account )
         .map( (network) => {
-          return <span dangerouslySetInnerHTML={{__html: network.name+": <a href="+network.url+">"+network.account+"</a><br/>"}}></span>;
+          return <span dangerouslySetInnerHTML={{__html: network.name+": "+(network.url ? "<a href="+network.url+">" : "")+network.account+(network.url ? "</a>" : "")+"<br/>"}}></span>;
         });
     }
 
@@ -21,7 +21,10 @@ class About extends Component {
           <div className="nine columns main-col">
             <h2>私について</h2>
 
-            <p>ゆーたすくんが好きな学生です．数学とか競プロとか開発とか．</p>
+            <p>
+              ゆーたすくんが好きな学生です．数学とか競プロとか開発とか．<br/>
+              何かあれば以下のどれかに連絡ください．
+            </p>
             <h2>アカウント</h2>
             <p className="address">
               {accounts}

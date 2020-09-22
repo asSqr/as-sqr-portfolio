@@ -11,16 +11,15 @@ import resumeData from './resumeData.json';
 
 class App extends Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       foo: 'bar',
       resumeData: {}
     };
-
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.setState({resumeData});
   }
 

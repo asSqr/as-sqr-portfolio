@@ -5,6 +5,12 @@
     "resumedownload": "http://timbakerdev.com",
     "social": [
       {
+        "name": "Twitter",
+        "url": "https://twitter.com/psi32_",
+        "className": "fa fa-twitter",
+        "account": "psi32_"
+      },
+      {
         "name": "Github",
         "url": "https://github.com/asSqr",
         "className": "fa fa-github",
@@ -13,6 +19,12 @@
       {
         "name": "AtCoder",
         "url": "https://atcoder.jp/users/As_sqr",
+        "className": "",
+        "account": "As_sqr"
+      },
+      {
+        "name": "Discord",
+        "url": "",
         "className": "",
         "account": "As_sqr"
       }
@@ -61,6 +73,56 @@
         "category": "HTML5 Canvas",
         "image": "hipplanetarium.png",
         "url": "https://assqr.github.io/Hipplanetarium/"
+      },
+      {
+        "title": "Voronoi Visualizer",
+        "category": "HTML5 Canvas",
+        "image": "Voronoi.png",
+        "url": "https://assqr.github.io/Fortune/"
+      },
+      {
+        "title": "Fourier Visualizer (FFT blog)",
+        "category": "HTML5 Canvas",
+        "image": "Fourier_Visualizer.png",
+        "url": "https://codepen.io/As2/full/yPaxGw/"
+      },
+      {
+        "title": "Butterfly Diagram Maker (FFT blog)",
+        "category": "HTML5 Canvas",
+        "image": "Buttefly Diagram Maker.png",
+        "url": "https://codepen.io/As2/full/BmLOqY"
+      },
+      {
+        "title": "立体切断 Visualizer",
+        "category": "HTML5 Canvas",
+        "image": "hexagonCube.png",
+        "url": "https://codepen.io/As2/full/zywEyL"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "立体切断を多角的に捉える",
+        "url": "http://ysmr-ry.hatenablog.com/entry/2018/12/26/185535",
+        "description": "立体切断の切り口を数式を用いて論理的に導出し，積分計算を行って自明な計算との合致を見ます．",
+        "date": "2018/12/26"
+      },
+      {
+        "title": "高速フーリエ変換 (FFT)",
+        "url": "http://ysmr-ry.hatenablog.com/entry/2017/11/09/102008",
+        "description": "FFT をわかりやすく解説してみました．",
+        "date": "2017/11/09"
+      },
+      {
+        "title": "ボロノイ図を描く！ ~Fortune's Algorithm~",
+        "url": "http://ysmr-ry.hatenablog.com/entry/2017/09/06/221319",
+        "description": "ボロノイ図を求めるアルゴリズムに Fortune's algorithm というものがあります．そのアルゴリズムの実装の詳細を Visualizer とともに解説します．日本語の資料も少なく苦労しましたが，自信作です．",
+        "date": "2017/09/06"
+      },
+      {
+        "title": "プラネタリウム作ってみた",
+        "url": "http://ysmr-ry.hatenablog.com/entry/2017/08/06/104857",
+        "description": "ヒッパルコス星表のデータを用いてプラネタリウムを作ってみました．理科の教材に使えると思います．きれい．",
+        "date": "2017/08/06"
       }
     ]
   },
