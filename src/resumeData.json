@@ -1,8 +1,6 @@
 {
   "main": {
     "image": "utas.jpeg",
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
     "social": [
       {
         "name": "Twitter",
@@ -21,6 +19,18 @@
         "url": "https://atcoder.jp/users/As_sqr",
         "className": "",
         "account": "As_sqr"
+      },
+      {
+        "name": "Codeforces",
+        "url": "https://codeforces.com/profile/As_sqr",
+        "className": "",
+        "account": "As_sqr"
+      },
+      {
+        "name": "Topcoder",
+        "url": "https://www.topcoder.com/members/sqrAs",
+        "className": "",
+        "account": "sqrAs"
       },
       {
         "name": "Discord",
@@ -69,6 +79,24 @@
   "portfolio": {
     "projects": [
       {
+        "title": "金星と地球の公転軌道が描く図形",
+        "category": "Desmos",
+        "image": "Venus.png",
+        "url": "https://www.desmos.com/calculator/ksmybe3rrv?lang=ja"
+      },
+      {
+        "title": "ブロック崩し (by Haskell)",
+        "category": "HTML5 Canvas / Haskell",
+        "image": "blockHaskell.png",
+        "url": "http://ysmr-ry.hatenablog.com/entry/2017/01/19/094918"
+      },
+      {
+        "title": "Prime Factorization Visualizer",
+        "category": "HTML5 Canvas",
+        "image": "primeFactorization.png",
+        "url": "https://codepen.io/As2/full/QgdWyX"
+      },
+      {
         "title": "Hipplanetarium",
         "category": "HTML5 Canvas",
         "image": "hipplanetarium.png",
@@ -101,6 +129,12 @@
     ],
     "blogs": [
       {
+        "title": "包除原理が好き",
+        "url": "http://ysmr-ry.hatenablog.com/entry/2020/07/10/002009",
+        "description": "競技プログラミングで包除原理と言えば，慣れが必要なテクニックとして有名です．ある程度慣れてきたところでメモ代わりに簡単にまとめてみました．",
+        "date": "2020/07/10"
+      },
+      {
         "title": "立体切断を多角的に捉える",
         "url": "http://ysmr-ry.hatenablog.com/entry/2018/12/26/185535",
         "description": "立体切断の切り口を数式を用いて論理的に導出し，積分計算を行って自明な計算との合致を見ます．",
@@ -123,6 +157,36 @@
         "url": "http://ysmr-ry.hatenablog.com/entry/2017/08/06/104857",
         "description": "ヒッパルコス星表のデータを用いてプラネタリウムを作ってみました．理科の教材に使えると思います．きれい．",
         "date": "2017/08/06"
+      },
+      {
+        "title": "転送行列の意味 (1 次元 Ising モデルの厳密解)",
+        "url": "http://ysmr-ry.hatenablog.com/entry/2017/07/05/223612",
+        "description": "統計力学をかじっていた若き日の思い出 (黒歴史) です．おそらく統計力学の初学者の誰もがぶつかるであろう，「なぜ転送行列の固有値を求めるのか」の問いに答えられていると思います．田崎統計力学をガン見しながら書きました．",
+        "date": "2017/07/05"
+      },
+      {
+        "title": "素因数分解の可視化",
+        "url": "http://ysmr-ry.hatenablog.com/entry/2017/06/22/010715",
+        "description": "簡単な再帰的規則により素因数分解を可視化したものです．",
+        "date": "2017/06/22"
+      },
+      {
+        "title": "金星と地球の公転軌道が描く図形",
+        "url": "http://ysmr-ry.hatenablog.com/entry/2017/05/06/144009",
+        "description": "金星と地球の公転軌道が描く図形を一般化して頑張って計算してみました．",
+        "date": "2017/05/06"
+      },
+      {
+        "title": "ブロック崩し (by Haskell)",
+        "url": "http://ysmr-ry.hatenablog.com/entry/2017/01/19/094918",
+        "description": "Haskell の練習がてらブロック崩しを作ってみました．",
+        "date": "2017/01/19"
+      },
+      {
+        "title": "二次元波動のシミュレーション",
+        "url": "http://ysmr-ry.hatenablog.com/entry/2017/01/15/032312",
+        "description": "愚直な離散化で波動のシミュレーションを試みたものです．",
+        "date": "2017/01/15"
       }
     ]
   },
