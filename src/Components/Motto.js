@@ -8,7 +8,7 @@ class Motto extends Component {
         return <li key={mottos.user}>
             <blockquote>
                <p>{mottos.text}</p>
-               <cite>{mottos.user}</cite>
+               <cite>{mottos.author}</cite>
             </blockquote>
          </li>
       })
