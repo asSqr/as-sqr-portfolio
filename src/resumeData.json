@@ -79,6 +79,24 @@
   "portfolio": {
     "projects": [
       {
+        "title": "2013 興風祭 Launcher",
+        "category": "Win32 API / Visual Studio (部員の作ったゲームを一覧表示して起動するためのランチャー．UI は全部自前)",
+        "image": "2013Kofu.png",
+        "url": ""
+      },
+      {
+        "title": "2014 デモスト Launcher",
+        "category": "Win32 API / Visual Studio (部員の作ったゲームを一覧表示して起動するためのランチャー．UI は全部自前．3D 表示の計算も自前．アプリケーションのアイコンの色情報を取得していい感じに表示．)",
+        "image": "dmst_qroma.png",
+        "url": ""
+      },
+      {
+        "title": "Planetarium",
+        "category": "Win32 API / Wii リモコン / Visual Studio (大昔に作った星座の 4 人対戦ゲーム．Wii リモコンで操作できる．3D 座標計算も自前．Quarternion とかも自前で用意した気がする．)",
+        "image": "Planetarium.png",
+        "url": ""
+      },
+      {
         "title": "Box2D",
         "category": "Android App / Java / Canvas / jBox2d (物理演算．フリックで力を加えて，軌道予測を見ることができる．正方形くんの目はいい感じにアニメーション．)",
         "image": "Box2D.jpg",
