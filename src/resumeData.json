@@ -79,6 +79,18 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Box2D",
+        "category": "Android App / Java / Canvas / jBox2d (物理演算．フリックで力を加えて，軌道予測を見ることができる．正方形くんの目はいい感じにアニメーション．)",
+        "image": "Box2D.jpg",
+        "url": ""
+      },
+      {
+        "title": "GridTbl",
+        "category": "Android App / Java / Canvas (自前の時間割アプリ．既存のアプリが使いにくかったので，Android アプリへの入門がてら．描画はキャンバスで全て自前)",
+        "image": "GridTbl.png",
+        "url": ""
+      },
+      {
         "title": "金星と地球の公転軌道が描く図形",
         "category": "Desmos",
         "image": "Venus.png",
