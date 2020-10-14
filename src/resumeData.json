@@ -91,9 +91,27 @@
         "url": ""
       },
       {
+        "title": "2014 デモスト Launcher タイトル",
+        "category": "Win32 API / Visual Studio (重複するがどうしても載せたかった．マスコットキャラクターの Chu くん)",
+        "image": "dmst_title.png",
+        "url": ""
+      },
+      {
         "title": "Planetarium",
         "category": "Win32 API / Wii リモコン / Visual Studio (大昔に作った星座の 4 人対戦ゲーム．Wii リモコンで操作できる．3D 座標計算も自前．Quarternion とかも自前で用意した気がする．)",
         "image": "Planetarium.png",
+        "url": ""
+      },
+      {
+        "title": "Fourier",
+        "category": "Android App / Java / Canvas (FFT Visualizer を Android でやったもの)",
+        "image": "Fourier.jpg",
+        "url": ""
+      },
+      {
+        "title": "Spline",
+        "category": "Android App / Java / Canvas (Catmull-Rom Spline 曲線を実装したもの．クリックした点をつなぐ曲線をどんどん描いてくれる)",
+        "image": "Catmull-Rom.jpg",
         "url": ""
       },
       {
