@@ -6,7 +6,8 @@ class Portfolio extends Component {
     if(this.props.data){
       var projects = this.props.data.projects.map( (projects) => {
         var projectImage = process.env.PUBLIC_URL+'/images/portfolio/'+projects.image;
-        return (
+
+        return projects.url.length ? (
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
               <a href={projects.url} title={projects.title}>
@@ -21,6 +22,21 @@ class Portfolio extends Component {
               
                 <div className="link-icon"><i className="fa fa-link"></i></div>
               </a>
+            </div>
+          </div>
+        ) : (
+          <div key={projects.title} className="columns portfolio-item">
+            <div className="item-wrap">
+              <img alt={projects.title} src={projectImage} />
+                
+              <div className="overlay">
+                <div className="portfolio-item-meta">
+                  <h5>{projects.title}</h5>
+                  <p>{projects.category}</p>
+                </div>
+              </div>
+            
+              <div className="link-icon"><i className="fa fa-link"></i></div>
             </div>
           </div>
         )
