@@ -7,8 +7,8 @@ class About extends Component {
       var profilePic = process.env.PUBLIC_URL+"/images/"+this.props.data.image;
       var accounts = this.props.data.social
         .filter( (network) => network.account )
-        .map( (network) => {
-          return <span dangerouslySetInnerHTML={{__html: network.name+": "+(network.url ? "<a href="+network.url+">" : "")+network.account+(network.url ? "</a>" : "")+"<br/>"}}></span>;
+        .map( (network, idx) => {
+          return <span key={"account-"+idx} dangerouslySetInnerHTML={{__html: network.name+": "+(network.url ? "<a href="+network.url+">" : "")+network.account+(network.url ? "</a>" : "")+"<br/>"}}></span>;
         });
     }
 

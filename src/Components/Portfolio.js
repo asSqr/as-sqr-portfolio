@@ -4,11 +4,11 @@ class Portfolio extends Component {
   render() {
 
     if(this.props.data){
-      var projects = this.props.data.projects.map( (projects) => {
+      var projects = this.props.data.projects.map( (projects, idx) => {
         var projectImage = process.env.PUBLIC_URL+'/images/portfolio/'+projects.image;
 
         return projects.url.length ? (
-          <div key={projects.title} className="columns portfolio-item">
+          <div key={"project-"+idx} className="columns portfolio-item">
             <div className="item-wrap">
               <a href={projects.url} title={projects.title}>
                 <img alt={projects.title} src={projectImage} />
@@ -25,7 +25,7 @@ class Portfolio extends Component {
             </div>
           </div>
         ) : (
-          <div key={projects.title} className="columns portfolio-item">
+          <div key={"project-"+idx} className="columns portfolio-item">
             <div className="item-wrap">
               <img alt={projects.title} src={projectImage} />
                 
@@ -42,11 +42,11 @@ class Portfolio extends Component {
         )
       })
 
-      var blogs = this.props.data.blogs.map( (blogs) => {
+      var blogs = this.props.data.blogs.map( (blogs, idx) => {
         return (
-          <div className="row item">
+          <div className="row item" key={"blog-"+idx}>
             <div className="twelve columns">
-              <div key={blogs.title}><h3><a href={blogs.url}>{blogs.title}</a></h3>
+              <div><h3><a href={blogs.url}>{blogs.title}</a></h3>
                 <p className="info">{blogs.description}<span>&bull;</span><em className="date">{blogs.date}</em></p>
               </div>
             </div>

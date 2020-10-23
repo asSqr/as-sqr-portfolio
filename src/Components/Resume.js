@@ -4,9 +4,9 @@ class Resume extends Component {
   render() {
     
     if( this.props.data ) {
-      var skills = this.props.data.skills.map((skills) => {
+      var skills = this.props.data.skills.map((skills, idx) => {
         var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+        return <li key={"skill-"+idx}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
     }
 
@@ -45,7 +45,7 @@ class Resume extends Component {
                 <div key="KaiY"><h3>KaiY</h3>
                   <p className="info">インターン <span>&bull;</span><em className="date">2020/08</em></p>
                 </div>
-                <div key="KaiY"><h3>Yahoo! JAPAN</h3>
+                <div key="Yahoo"><h3>Yahoo! JAPAN</h3>
                   <p className="info">インターン <span>&bull;</span><em className="date">2020/09</em></p>
                 </div>
               </div>

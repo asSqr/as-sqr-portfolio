@@ -4,8 +4,8 @@ class Motto extends Component {
   render() {
 
     if(this.props.data){
-      var mottos = this.props.data.mottos.map( (mottos) => {
-        return <li key={mottos.user}>
+      var mottos = this.props.data.mottos.map( (mottos, idx) => {
+        return <li key={"motto-"+idx}>
             <blockquote>
                <p>{mottos.text}</p>
                <cite>{mottos.author}</cite>
