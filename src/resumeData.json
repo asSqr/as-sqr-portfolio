@@ -145,10 +145,22 @@
         "url": "http://ysmr-ry.hatenablog.com/entry/2017/01/19/094918"
       },
       {
+        "title": "Globe",
+        "category": "HTML5 Canvas / JS (メルカトル図法で同心円を書くと実際にはどうなるかというのが話題になってたので作った．中心は平壌．)",
+        "image": "Globe.png",
+        "url": "https://codepen.io/As2/full/jmRdoB"
+      },
+      {
         "title": "Prime Factorization Visualizer",
         "category": "HTML5 Canvas",
         "image": "primeFactorization.png",
         "url": "https://codepen.io/As2/full/QgdWyX"
+      },
+      {
+        "title": "Dijkstra Visualizer",
+        "category": "HTML5 Canvas / JS (Dijkstra 法の Visualizer．JS の generator を使うとアルゴリズムの途中経過を追いやすいのではないかと思った．グラフの表示はなんか電荷とかを仮想的に持たせて計算してた気がする．)",
+        "image": "Dijkstra.png",
+        "url": "https://codepen.io/As2/full/Kvdoxd"
       },
       {
         "title": "Tokyo Metro Visualizer",
@@ -163,10 +175,34 @@
         "url": "https://assqr.github.io/Hipplanetarium/"
       },
       {
+        "title": "RainbowRing",
+        "category": "Shadertoy (RayMarching の練習)",
+        "image": "RainbowRing.png",
+        "url": "https://www.shadertoy.com/view/4tsczS"
+      },
+      {
+        "title": "RayMarching Kado",
+        "category": "Shadertoy (RayMarching の練習．アニメ正解するカドにハマっていたので．)",
+        "image": "Kado.png",
+        "url": "https://www.shadertoy.com/view/ltfyWB"
+      },
+      {
+        "title": "Ellipse RayMarching",
+        "category": "Shadertoy (RayMarching 教育用)",
+        "image": "EllipseMarching.png",
+        "url": "https://www.shadertoy.com/view/XlScRh"
+      },
+      {
         "title": "Voronoi Visualizer",
         "category": "HTML5 Canvas",
         "image": "Voronoi.png",
         "url": "https://assqr.github.io/Fortune/"
+      },
+      {
+        "title": "Pytha",
+        "category": "HTML5 Canvas / Haskell (Haste の練習として書いた．ピタゴラスの定理のアレ．)",
+        "image": "pytha.png",
+        "url": "https://codepen.io/As2/full/OxBROm"
       },
       {
         "title": "Fourier Visualizer (FFT blog)",
@@ -181,10 +217,28 @@
         "url": "https://codepen.io/As2/full/BmLOqY"
       },
       {
+        "title": "MemPi",
+        "category": "HTML5 Canvas / JS (円周率暗記用)",
+        "image": "MemPi.png",
+        "url": "https://assqr.github.io/MemPi/"
+      },
+      {
+        "title": "PondyRing",
+        "category": "Shadertoy (RayMarching の練習．ポンデリングが食べたかった．)",
+        "image": "PondyRing.png",
+        "url": "https://www.shadertoy.com/view/4l2BWw"
+      },
+      {
         "title": "立体切断 Visualizer",
         "category": "HTML5 Canvas",
         "image": "hexagonCube.png",
         "url": "https://codepen.io/As2/full/zywEyL"
+      },
+      {
+        "title": "Boys Surface",
+        "category": "Shadertoy (授業で射影平面を可視化しようとしたけど微妙だった)",
+        "image": "BoysSurface.png",
+        "url": "https://www.shadertoy.com/view/tsj3zw"
       }
     ],
     "blogs": [
