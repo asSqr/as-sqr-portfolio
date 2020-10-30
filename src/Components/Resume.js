@@ -53,6 +53,28 @@ class Resume extends Component {
           </div>
         </div>
 
+        <div className="row work">
+          <div className="three columns header-col">
+            <h1><span>受賞歴</span></h1>
+          </div>
+
+          <div className="nine columns main-col">
+            <div className="row item">
+              <div className="twelve columns">
+                <div key="JOI2013"><h3>情報オリンピック 2013-2014 本選出場</h3>
+                  <p className="info"><a href="https://www.ioi-jp.org/joi/2013/2014-yo-A-rank.html">リンク</a></p>
+                </div>
+                <div key="JOI2014"><h3>情報オリンピック 2014-2015 本選出場</h3>
+                  <p className="info"><a href="https://www.ioi-jp.org/joi/2014/2015-yo-A-rank.html">リンク</a></p>
+                </div>
+                <div key="U22"><h3>U22 プログラミングコンテスト サイボウズ企業賞受賞</h3>
+                  <p className="info"><a href="https://u22procon.com/2014/kojin.php">リンク</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="row skill">
           <div className="three columns header-col">
               <h1><span>Skills</span></h1>
