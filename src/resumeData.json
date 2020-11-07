@@ -77,6 +77,14 @@
     ]
   },
   "portfolio": {
+    "products": [
+      {
+        "title": "Flash Reading",
+        "category": "HTML5 / JS / Python (Flask) / Postgres / Docker / Goo ラボ API (JPHACKS でチームで作った作品．長い文書をパラパラ文字で表示して読みやすくする．形態素解析は python で goo ラボ API を呼び出している．CircleCI とか Docker とか業務で見聞きしたものをいろいろ試しに使ってみた．アプリ自体はこちら: flash-reading.herokuapp.com/)",
+        "image": "flash reading.png",
+        "url": "https://github.com/jphacks/F_2006"
+      }
+    ],
     "projects": [
       {
         "title": "2013 興風祭 Launcher",
