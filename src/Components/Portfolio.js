@@ -1,6 +1,28 @@
 import React, { Component } from 'react';
+import { Lightbox } from 'react-modal-image';
 
 class Portfolio extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      open: false,
+      srcImage: ''
+    };
+
+    this.openModal = this.openModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
+  }
+
+  openModal(srcImage) {
+    this.setState({ open: true, srcImage: srcImage });
+    console.log("openModal");
+  }
+
+  closeModal() {
+    this.setState({ open: false });
+  }
+
   render() {
 
     if (this.props.data) {
@@ -11,7 +33,7 @@ class Portfolio extends Component {
           <div key={"product-" + idx} className="columns portfolio-item">
             <div className="item-wrap">
               <a href={products.url} title={products.title}>
-                <img alt={products.title} src={productImage} />
+                <img alt={products.title} src={productImage}/>
 
                 <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -26,7 +48,7 @@ class Portfolio extends Component {
           </div>
         ) : (
             <div key={"product-" + idx} className="columns portfolio-item">
-              <div className="item-wrap">
+              <div className="item-wrap" onClick={this.openModal.bind(this, productImage)}>
                 <img alt={products.title} src={productImage} />
 
                 <div className="overlay">
@@ -64,7 +86,7 @@ class Portfolio extends Component {
           </div>
         ) : (
             <div key={"project-" + idx} className="columns portfolio-item">
-              <div className="item-wrap">
+              <div className="item-wrap" onClick={this.openModal.bind(this, projectImage)}>
                 <img alt={projects.title} src={projectImage} />
 
                 <div className="overlay">
@@ -120,6 +142,18 @@ class Portfolio extends Component {
             {blogs}
           </div>
         </div>
+
+        {
+          this.state.open && (
+            <Lightbox
+              medium={this.state.srcImage}
+              large={this.state.srcImage}
+              onClose={this.closeModal}
+              hideDownload={true}
+              hideZoom={true}
+            />
+          )
+        }
       </section>
     );
   }

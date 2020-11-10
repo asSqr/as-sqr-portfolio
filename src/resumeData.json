@@ -79,6 +79,12 @@
   "portfolio": {
     "products": [
       {
+        "title": "KaiY",
+        "category": "WebRTC / Vue.js / Firebase / Nuxt.js / Stripe (ビデオミーティングができるサイト．チャット欄はもちろんのこと，画面共有や YouTube を一緒に見たり，バーナーを載せておいたり，フロア管理で色など部屋の設定をいろいろ弄れたり，アイテムをエフェクト付きで送ることができたり．もうすぐ正式リリース)",
+        "image": "KaiY.png",
+        "url": ""
+      },
+      {
         "title": "Flash Reading",
         "category": "HTML5 / JS / Python (Flask) / Postgres / Docker / Goo ラボ API (JPHACKS でチームで作った作品．長い文書をパラパラ文字で表示して読みやすくする．形態素解析は python で goo ラボ API を呼び出している．CircleCI とか Docker とか業務で見聞きしたものをいろいろ試しに使ってみた．アプリ自体はこちら: flash-reading.herokuapp.com/)",
         "image": "flash reading.png",
