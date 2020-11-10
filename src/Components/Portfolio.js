@@ -49,16 +49,18 @@ class Portfolio extends Component {
         ) : (
             <div key={"product-" + idx} className="columns portfolio-item">
               <div className="item-wrap" onClick={this.openModal.bind(this, productImage)}>
-                <img alt={products.title} src={productImage} />
+                <div className="hover-item">
+                  <img alt={products.title} src={productImage} />
 
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>{products.title}</h5>
-                    <p>{products.category}</p>
+                  <div className="overlay">
+                    <div className="portfolio-item-meta">
+                      <h5>{products.title}</h5>
+                      <p>{products.category}</p>
+                    </div>
                   </div>
-                </div>
 
-                <div className="link-icon"><i className="fa fa-link"></i></div>
+                  <div className="link-icon"><i className="fa fa-link"></i></div>
+                </div>
               </div>
             </div>
           )
@@ -87,16 +89,18 @@ class Portfolio extends Component {
         ) : (
             <div key={"project-" + idx} className="columns portfolio-item">
               <div className="item-wrap" onClick={this.openModal.bind(this, projectImage)}>
-                <img alt={projects.title} src={projectImage} />
+                <div className="hover-item">
+                  <img alt={projects.title} src={projectImage} />
 
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>{projects.title}</h5>
-                    <p>{projects.category}</p>
+                  <div className="overlay">
+                    <div className="portfolio-item-meta">
+                      <h5>{projects.title}</h5>
+                      <p>{projects.category}</p>
+                    </div>
                   </div>
-                </div>
 
-                <div className="link-icon"><i className="fa fa-link"></i></div>
+                  <div className="link-icon"><i className="fa fa-link"></i></div>
+                </div>
               </div>
             </div>
           )

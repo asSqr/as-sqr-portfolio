@@ -456,6 +456,10 @@ ul#nav li.current a { color: #F06000; }
    transform: scale(1.1, 1.1);
    transition: 1s all;
 }
+.portfolio-item .item-wrap .hover-item:hover {
+   transform: scale(1.1, 1.1);
+   transition: 1s all;
+}
 
 /* overlay */
 .portfolio-item .item-wrap .overlay {
