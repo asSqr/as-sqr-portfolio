@@ -70,7 +70,11 @@ class Resume extends Component {
                 <div key="U22"><h3>U22 プログラミングコンテスト サイボウズ企業賞受賞</h3>
                   <p className="info"><a href="https://u22procon.com/2014/kojin.php">リンク</a></p>
                 </div>
-                <div key="JPHACKS"><h3>JPHACKS 2020 Finalist Award (F_2006 Flash Reading)</h3>
+                <div key="JPHACKS">
+                  <h3>JPHACKS 2020 Finalist Award</h3>
+                  <h3>JPHACKS 2020 Innovator 認定</h3>
+                  <h3>JPHACKS 2020 日立コンサルティング賞</h3>
+                  <h3>(F_2006 Flash Reading)</h3>
                   <p className="info"><a href="https://jphacks.com/information/award-finalists2020/">リンク</a></p>
                 </div>
               </div>
