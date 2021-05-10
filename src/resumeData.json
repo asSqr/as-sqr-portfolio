@@ -4,9 +4,9 @@
     "social": [
       {
         "name": "Twitter",
-        "url": "https://twitter.com/as_sqr",
+        "url": "https://twitter.com/As_sqr",
         "className": "fa fa-twitter",
-        "account": "as_sqr"
+        "account": "As_sqr"
       },
       {
         "name": "Github",
@@ -291,12 +291,6 @@
         "url": "http://ysmr-ry.hatenablog.com/entry/2017/07/05/223612",
         "description": "統計力学をかじっていた若き日の思い出 (黒歴史) です．おそらく統計力学の初学者の誰もがぶつかるであろう，「なぜ転送行列の固有値を求めるのか」の問いに答えられていると思います．田崎統計力学をガン見しながら書きました．",
         "date": "2017/07/05"
-      },
-      {
-        "title": "素因数分解の可視化",
-        "url": "http://ysmr-ry.hatenablog.com/entry/2017/06/22/010715",
-        "description": "簡単な再帰的規則により素因数分解を可視化したものです．",
-        "date": "2017/06/22"
       },
       {
         "title": "金星と地球の公転軌道が描く図形",
