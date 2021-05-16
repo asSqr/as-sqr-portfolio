@@ -62,20 +62,14 @@ class Resume extends Component {
             <div className="row item">
               <div className="twelve columns">
                 <div key="JOI2013"><h3>情報オリンピック 2013-2014 本選出場</h3>
-                  <p className="info"><a href="https://www.ioi-jp.org/joi/2013/2014-yo-A-rank.html">リンク</a></p>
                 </div>
                 <div key="JOI2014"><h3>情報オリンピック 2014-2015 本選出場</h3>
-                  <p className="info"><a href="https://www.ioi-jp.org/joi/2014/2015-yo-A-rank.html">リンク</a></p>
                 </div>
                 <div key="U22"><h3>U22 プログラミングコンテスト サイボウズ企業賞受賞</h3>
-                  <p className="info"><a href="https://u22procon.com/2014/kojin.php">リンク</a></p>
                 </div>
                 <div key="JPHACKS">
                   <h3>JPHACKS 2020 Finalist Award</h3>
                   <h3>JPHACKS 2020 Innovator 認定</h3>
-                  <h3>JPHACKS 2020 日立コンサルティング賞</h3>
-                  <h3>(F_2006 Flash Reading)</h3>
-                  <p className="info"><a href="https://jphacks.com/information/award-finalists2020/">リンク</a></p>
                 </div>
               </div>
             </div>
