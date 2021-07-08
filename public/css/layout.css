@@ -450,6 +450,7 @@ ul#nav li.current a { color: #F06000; }
 }
 .portfolio-item .item-wrap a {
    display: block;
+   pointer-events: none;
    cursor: pointer;
 }
 .portfolio-item .item-wrap a:hover {

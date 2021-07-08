@@ -16,7 +16,6 @@ class Portfolio extends Component {
 
   openModal(srcImage) {
     this.setState({ open: true, srcImage: srcImage });
-    console.log("openModal");
   }
 
   closeModal() {
@@ -31,8 +30,8 @@ class Portfolio extends Component {
 
         return products.url.length ? (
           <div key={"product-" + idx} className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href={products.url} title={products.title}>
+            <div className="item-wrap" onClick={() => window.open(products.url, "_blank")}>
+              <div className="hover-item">
                 <img alt={products.title} src={productImage}/>
 
                 <div className="overlay">
@@ -43,7 +42,7 @@ class Portfolio extends Component {
                 </div>
 
                 <div className="link-icon"><i className="fa fa-link"></i></div>
-              </a>
+              </div>
             </div>
           </div>
         ) : (
@@ -71,8 +70,8 @@ class Portfolio extends Component {
 
         return projects.url.length ? (
           <div key={"project-" + idx} className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href={projects.url} title={projects.title}>
+            <div className="item-wrap" onClick={() => window.open(projects.url, "_blank")}>
+              <div className="hover-item">
                 <img alt={projects.title} src={projectImage} />
 
                 <div className="overlay">
@@ -83,7 +82,7 @@ class Portfolio extends Component {
                 </div>
 
                 <div className="link-icon"><i className="fa fa-link"></i></div>
-              </a>
+              </div>
             </div>
           </div>
         ) : (
