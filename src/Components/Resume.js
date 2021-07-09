@@ -49,7 +49,7 @@ class Resume extends Component {
                   <p className="info">インターン <span>&bull;</span><em className="date">2020/09</em></p>
                 </div>
                 <div key="infonerv"><h3>infonerv</h3>
-                  <p className="info">バイト <span>&bull;</span><em className="date">2020/12</em></p>
+                  <p className="info">バイト <span>&bull;</span><em className="date">2020/12~</em></p>
                 </div>
               </div>
             </div>
