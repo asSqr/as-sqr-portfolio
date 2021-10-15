@@ -138,7 +138,7 @@ class Portfolio extends Component {
             </div>
           </div>
         </div>
-        {/*
+        {
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>かいたもの</h1>
@@ -146,7 +146,7 @@ class Portfolio extends Component {
             {blogs}
           </div>
         </div>
-        */}
+        }
 
         {
           this.state.open && (
