@@ -3,12 +3,6 @@
     "image": "utas.jpeg",
     "social": [
       {
-        "name": "Twitter",
-        "url": "https://twitter.com/As_sqr",
-        "className": "fa fa-twitter",
-        "account": "As_sqr"
-      },
-      {
         "name": "Github",
         "url": "https://github.com/asSqr",
         "className": "fa fa-github",
@@ -44,11 +38,11 @@
     "skills": [
       {
         "name": "C++ (for Competitive Programming)",
-        "level": "70%"
+        "level": "60%"
       },
       {
         "name": "Spring Boot",
-        "level": "60%"
+        "level": "70%"
       },
       {
         "name": "Firebase",
@@ -64,7 +58,7 @@
       },
       {
         "name": "React",
-        "level": "20%"
+        "level": "70%"
       },
       {
         "name": "Apache Solr",
@@ -86,13 +80,13 @@
       },
       {
         "title": "Flash Reading",
-        "category": "HTML5 / JS / Python (Flask) / Postgres / Docker / Goo ラボ API (JPHACKS でチームで作った作品．長い文書をパラパラ文字で表示して読みやすくする．形態素解析は python で goo ラボ API を呼び出している．CircleCI とか Docker とか業務で見聞きしたものをいろいろ試しに使ってみた．アプリ自体はこちら: flash-reading.herokuapp.com/)",
+        "category": "HTML5 / JS / Python (Flask) / Postgres / Docker / Goo ラボ API (JPHACKS でチームで作った作品．長い文書をパラパラ文字で表示して読みやすくする．形態素解析は python で goo ラボ API を呼び出している．アプリ自体はこちら: flash-reading.herokuapp.com/)",
         "image": "flash reading.png",
         "url": "https://github.com/jphacks/F_2006"
       },
       {
         "title": "Recipe Hub",
-        "category": "Next.js / React / Python / Django REST framework / Postgres / Docker / Vercel / Heroku / AWS S3 (Github for Cooking．レシピを自由にフォークしてアレンジでき，その様子を木構造によって表示できる．(一般的に) 難しいところは木構造くらいであまり技術的に高度なことはしていないが，SSR で OGP を刷ったり，Firebase Auth で各種 SNS 連携を実装したり，リッチテキストや画像を投稿できたりと細かいところに色々凝った．某ハッカソンで某賞を取った．)",
+        "category": "Next.js / React / Python / Django REST framework / Postgres / Docker / Vercel / Heroku / AWS S3 (Github for Cooking．レシピを自由にフォークしてアレンジでき，その様子を木構造によって表示できる．某ハッカソンで某賞を取った．)",
         "image": "Recipe Hub.png",
         "url": "https://recipe-hub.vercel.app/"
       }
@@ -118,7 +112,7 @@
       },
       {
         "title": "Planetarium",
-        "category": "Win32 API / Wii リモコン / Visual Studio (大昔に作った星座の 4 人対戦ゲーム．Wii リモコンで操作できる．3D 座標計算も自前．Quarternion とかも自前で用意した気がする．)",
+        "category": "Win32 API / Wii リモコン / Visual Studio (大昔に作った星座の 4 人対戦ゲーム．Wii リモコンで操作できる．3D 座標計算も自前．)",
         "image": "Planetarium.png",
         "url": ""
       },
@@ -142,13 +136,13 @@
       },
       {
         "title": "GridTbl",
-        "category": "Android App / Java / Canvas (自前の時間割アプリ．既存のアプリが使いにくかったので，Android アプリへの入門がてら．描画はキャンバスで全て自前)",
+        "category": "Android App / Java / Canvas (自前の時間割アプリ．)",
         "image": "GridTbl.png",
         "url": ""
       },
       {
         "title": "kinetics",
-        "category": "Win32 API / C++ / Visual Studio (初年次ゼミナールという授業で体にセンサーをつけて投擲運動の解析をしたときのやつ．データをエクセルでもらって運動をエクセルの散布図で解析しろと言われてキレたので 3D Visualizer を自作した．2 次元平面に射影した状態じゃ何もわからないが，こうしてみるとリアルに人型がボールを投げていてわかりやすい．なんか速度や加速度や加加速度も計算して解析しようとした努力の跡が見られる．動く軌跡とかも表示できてよかった．)",
+        "category": "Win32 API / C++ / Visual Studio (体にセンサーをつけて投擲運動の解析をしたときのやつ．3D Visualizer)",
         "image": "kinetics.png",
         "url": ""
       },
@@ -178,7 +172,7 @@
       },
       {
         "title": "Dijkstra Visualizer",
-        "category": "HTML5 Canvas / JS (Dijkstra 法の Visualizer．JS の generator を使うとアルゴリズムの途中経過を追いやすいのではないかと思った．グラフの表示はなんか電荷とかを仮想的に持たせて計算してた気がする．)",
+        "category": "HTML5 Canvas / JS (Dijkstra 法の Visualizer．)",
         "image": "Dijkstra.png",
         "url": "https://codepen.io/As2/full/Kvdoxd"
       },
@@ -220,7 +214,7 @@
       },
       {
         "title": "Pytha",
-        "category": "HTML5 Canvas / Haskell (Haste の練習として書いた．ピタゴラスの定理のアレ．)",
+        "category": "HTML5 Canvas / Haskell (Haste の練習として書いた．ピタゴラスの定理．)",
         "image": "pytha.png",
         "url": "https://codepen.io/As2/full/OxBROm"
       },
@@ -244,7 +238,7 @@
       },
       {
         "title": "PondyRing",
-        "category": "Shadertoy (RayMarching の練習．ポンデリングが食べたかった．)",
+        "category": "Shadertoy (RayMarching の練習．ポンデリング．)",
         "image": "PondyRing.png",
         "url": "https://www.shadertoy.com/view/4l2BWw"
       },
@@ -256,40 +250,13 @@
       },
       {
         "title": "Boys Surface",
-        "category": "Shadertoy (授業で射影平面を可視化しようとしたけど微妙だった)",
+        "category": "Shadertoy (射影平面を可視化しようとした)",
         "image": "BoysSurface.png",
         "url": "https://www.shadertoy.com/view/tsj3zw"
       }
-    ],
-    "blogs": [
-      {
-        "title": "ボロノイ図を描く！ ~Fortune's Algorithm~",
-        "url": "http://ysmr-ry.hatenablog.com/entry/2017/09/06/221319",
-        "description": "ボロノイ図を求めるアルゴリズムに Fortune's algorithm というものがあります．そのアルゴリズムの実装の詳細を Visualizer とともに解説します．日本語の資料も少なく苦労しましたが，自信作です．",
-        "date": "2017/09/06"
-      },
-      {
-        "title": "転送行列の意味 (1 次元 Ising モデルの厳密解)",
-        "url": "http://ysmr-ry.hatenablog.com/entry/2017/07/05/223612",
-        "description": "統計力学をかじっていた若き日の思い出 (黒歴史) です．おそらく統計力学の初学者の誰もがぶつかるであろう，「なぜ転送行列の固有値を求めるのか」の問いに答えられていると思います．田崎統計力学をガン見しながら書きました．",
-        "date": "2017/07/05"
-      },
     ]
   },
   "mottos": {
-    "mottos": [
-      {
-        "text": "きみが自分の固有の思索を展開したいのなら、他者を避けてはならない。他者の中で揉まれなければならない。きみに反対する、きみの思索と異質な、天と地のように異なる他者に次々にめぐり合い、彼らからめためたに切りつけられねばならない。きみが布団の中で描いていた壮大な幻想世界など、粉々に打ち砕かれればいいのだ。原型をとどめないほど崩れ去ればいいのだ。そしてその廃墟の中からはじめて、それでもきみが立ちあがろうとするとき、きみはほんとうに思索しだすのである。きみの思索は現実的なものになる。",
-        "author": "中島 義道"
-      },
-      {
-        "text": "芸術とは、邪なるものに曇らされた世俗に向かって決然と対峙して、そこで忘れ去られてしまった自然の本性、すなわち「美」を力強く表現するものです。ですから、文字通りの小児の表現するものが、いかに純粋で創造性に満ちていたとしても、それだけでは芸術と呼ぶことはできません。",
-        "author": "泉谷 閑示"
-      },
-      {
-        "text": "「経験」が個人の中で深められていくと、その出来事の特異性や個人的な要素は次第に薄らいでいって、最終的に普遍性を獲得するものになります。〜中略〜 ある人は画家であったり、詩人であったり、哲学者であったりしますが、地下水脈から汲み取ってきている人は、みな同じことを言っています。〜中略〜 さて、この一番下の地下水脈から汲み上げてきたもの、この深さから来た言葉というものは、非常にシンプルで分かりやすいものになっているのが特徴です。平易な言葉を使っていながらも、密度が濃い。逆に、内容の浅いものほど、言葉は難解になります。",
-        "author": "泉谷 閑示"
-      }
-    ]
+    "mottos": []
   }
 }
